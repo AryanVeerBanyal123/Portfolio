@@ -9,21 +9,24 @@
 </head>
 <body>
 
-    <!-- Home Page Start-->
-    <section class="home_section">
-        <div class="container min-height-section">
+    <!-------
+    Home Page Start
+    -------->
+
+    <section class="min-height-section" id="particles-js">
+        <div class="home_section">
             <div class="home_content d-flex">
                 <h1>Hi, I am Akshat Jha</h1>
                 <div class="about-section">
                     I am a <span class="bold">Fullstack Developer</span>. Check out my works in the 
-                    <a href="#">Portfolio</a> section
+                    <a href="#" class="link-underline">Portfolio</a> section
                 </div>
 
                 <h2>Skills</h2>
                 <div class="skills d-flex">
                     <div class="skill-item">HTML</div>
                     <div class="skill-item">CSS</div>
-                    <div class="skill-item">JS</div>
+                    <div class="skill-item">JavaScript</div>
                     <div class="skill-item">Bootstrap 5</div>
                     <div class="skill-item">ReactJS</div>
                     <div class="skill-item">MERN stack</div>
@@ -34,8 +37,39 @@
         </div>
     </section>
 
+    <!-------
+    Portfolio begins
+    --------->
+    <div class="portfolio-section container min-height-section">
+        
+        <h1>My Projects</h1>
+        <div class="portfolio-items d-flex">
 
+            <div class="portfolio-item">
+            <div class="portfolio-card">        
+                <div class="portfolio-card-img"></div>
+                <h3>cryptoX</h3>
+                <div class="hide-items">
+                    <div class="desc">Online Crypto Price tracker so that YOU can stay updated about latest price of cryptocurrency. Visualising price made very easy with frequently updated Graphs.</div>
+                    <div class="tech-used d-flex">
+                        <div class="tech-item">HTML</div>
+                        <div class="tech-item">ReactJS</div>
+                        <div class="tech-item">JavaScript</div>
+                        <div class="tech-item">Bootstrap 5</div>
+                    </div>
+                    <div class="project-links d-flex">
+                        <div><a class="link-underline" href="#">Github</a></div>
+                        <div><a class="link-underline" href="#">Website</a></div>     
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
 
-    <scirpt src="./js/script.js"></scirpt>
+    <script src="js/script.js"></script>
 </body>
-</html>
+</html> 
+
+<script src="particlejs/particles.js"></script>
+<script src="particlejs/myparticle.js"></script>
