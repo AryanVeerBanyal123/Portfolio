@@ -156,10 +156,11 @@ Portfolio Section
     min-height: 500px;
     display: flex;
     align-items: center;
+    margin-right: 3px;
 }
 
 .portfolio-card{
-    width: 440px;
+    width: 400px;
     font-size: 17px;
     background-color: var(--dark-light);
     padding: 7px;
@@ -176,12 +177,38 @@ Portfolio Section
     margin: 3px;
 }
 
-.portfolio-card-img{
+.portfolio-card-img-cryptox{
     height: 175px;
     background:  url('../images/cryptoX-icon.png') no-repeat;
     background-position: center center;
     background-size: contain;
-    border-radius: 15px;
+    border-radius: 7px;
+
+    position: relative;
+    top: -5px;
+
+    transition: all 0.2s cubic-bezier(0.14, 0.98, 0.34, 1.43);
+}
+
+.portfolio-card-img-portfolio{
+    height: 175px;
+    background:  url('../images/portfolio-icon.png') no-repeat;
+    background-position: center center;
+    background-size: contain;
+    border-radius: 7px;
+
+    position: relative;
+    top: -5px;
+
+    transition: all 0.2s cubic-bezier(0.14, 0.98, 0.34, 1.43);
+}
+
+.portfolio-card-img-airNotes{
+    height: 175px;
+    background:  url('../images/airNotes-icon.png') no-repeat;
+    background-position: center center;
+    background-size: contain;
+    border-radius: 7px;
 
     position: relative;
     top: -5px;
@@ -228,5 +255,72 @@ Portfolio Section
 }
 
 .portfolio-card:hover .portfolio-card-img{
-    top:-35px
+    top:-35px;
+    border-top: 1px solid rgba(149, 146, 146, 0.4);
+    border-top: 1px solid rgba(149, 146, 146, 0.4);
+}
+
+/*------
+    Contact Us Section
+------*/
+
+.contact-form-section{
+    border-top: 1px solid whitesmoke;
+    margin: 5px; padding: 10px;
+    background-color: #1c1c20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 45vh;
+}
+
+.contact-form{
+    display: flex;
+    background-color: #1b1b21e1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    min-width: 40vw;
+    border: 1px solid rgba(102, 102, 102, 0.358);
+}
+
+.contact-form-items{
+    margin: 9px;
+    padding: 6px;
+    height: 32px;
+    min-width: 250px;
+    border-radius: 5px;
+
+}
+
+.contact-form-submit{
+    border-radius: 5px;
+    color: cyan;
+    background-color: transparent;
+    border: 1px solid cyan;
+    margin: 9px;
+    padding: 6px;
+    height: 32px;
+}
+.contact-form-submit:hover{
+    
+    color: white;
+    background-color: cyan;
+    border: 1px solid whitesmoke;
+}
+
+detailsitem{
+    display: flex;  
+}
+.detailsTopic{
+
+}
+
+.detailsContent{
+    color: var(--main-color);
+}
+.detailsContent a{
+    text-decoration: none;
+    color: var(--main-color);
 }
