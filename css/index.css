@@ -79,7 +79,7 @@ Home Section
 
 .home_section{
     position: absolute;
-    top: 18vh;
+    top: 27vh;
     width: 100%;
     height: 100%;
 }
@@ -270,7 +270,7 @@ Portfolio Section
     background-color: #1c1c20;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     min-height: 45vh;
 }
 
@@ -280,10 +280,10 @@ Portfolio Section
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 30vh;
-    min-width: 40vw;
+    min-height: 35vh;
+    min-width: 35vw;
     border: 1px solid rgba(102, 102, 102, 0.358);
-}
+}   
 
 .contact-form-items{
     margin: 9px;
@@ -310,17 +310,19 @@ Portfolio Section
     border: 1px solid whitesmoke;
 }
 
-detailsitem{
+.detailsitem{
     display: flex;  
 }
 .detailsTopic{
-
+    font-size: 1.1rem;
 }
 
 .detailsContent{
     color: var(--main-color);
+    font-size: 1.1rem;
 }
 .detailsContent a{
     text-decoration: none;
+    font-size: 1.1rem;
     color: var(--main-color);
 }
