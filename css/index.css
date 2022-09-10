@@ -167,7 +167,7 @@ Portfolio Section
     border-radius: 12px;
     height: 260px;
 
-    transition: 0.18s cubic-bezier(0.14, 0.98, 0.34, 1.43);
+    transition: 0.25s cubic-bezier(0.14, 0.98, 0.34, 1.43);
 }
 
 .portfolio-card h3{
